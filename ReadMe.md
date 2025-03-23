@@ -63,4 +63,4 @@ Customer segmentation plays a vital role in business strategy. This project effe
 ---
 **Author:** Berlin Samvel Pandian S
 
-#DataScience #MachineLearning #KMeans #CustomerSegmentation #Python #DataAnalysis
+#DataScience #MachineLearning #KMeans #CustomerSegmentation #Python #DataScience
