@@ -18,31 +18,32 @@ This project focuses on **customer segmentation** using **K-Means Clustering** t
 - Checked for **missing values, duplicates, data types, and summary statistics**.
 
 ### 2️⃣ Data Preprocessing
+- Removed **duplicate entries** to maintain data integrity.
 - Standardized the data using **StandardScaler** from `sklearn` to normalize features.
 - Ensured all features are on the same scale for better clustering performance.
 
 ### 3️⃣ Clustering Analysis
 - **Determined the optimal number of clusters**:
-  - Used the **Elbow Method** (WCSS vs. number of clusters).
+  - Used the **Elbow Method** (WCSS vs. number of clusters) to find the best k.
   - Used **Silhouette Score** for further validation.
 - **Applied K-Means Clustering**:
-  - Trained the model with the optimal number of clusters.
+  - Trained the model with the optimal number of clusters (determined from the Elbow method).
   - Assigned cluster labels to each customer.
 
 ### 4️⃣ Data Visualization
 - **Elbow Method Plot** to identify the optimal cluster count.
 - **2D Scatter Plot** of clusters using **PCA (Principal Component Analysis)**.
-- **Pair Plots** to visualize feature relationships within clusters.
-- **Centroid Visualization** to interpret cluster centers.
+- **Visual Representation** of customer groups with distinct colors.
 
 ## 📊 Results & Insights
 - Successfully segmented customers into distinct groups based on purchasing patterns.
+- Calculated **Silhouette Score** to validate clustering performance.
 - Identified **high-spending customers** who could be targeted for loyalty programs.
 - Suggested tailored marketing strategies for different age and income groups.
 
 ## 📁 Deliverables
-- **Clustered Dataset**: Added a new column with assigned cluster labels.
-- **Visualizations**: Elbow method plot, 2D scatter plot, and pair plots.
+- **Clustered Dataset**: Added a new column `Cluster` with assigned labels and saved as `updated_customer_data.csv`.
+- **Visualizations**: Elbow method plot, 2D scatter plot, and PCA visualization.
 - **Actionable Insights** for businesses to optimize marketing and sales strategies.
 
 ## 🛠 Technologies Used
