@@ -55,10 +55,9 @@ This project focuses on **customer segmentation** using **K-Means Clustering** t
 This project demonstrates how clustering techniques can help businesses **understand customer behavior and improve decision-making**. By segmenting customers effectively, companies can create **personalized marketing campaigns** and increase customer engagement. 🚀
 
 ## 🔗 Connect with Me
-[LinkedIn Profile](https://www.linkedin.com/in/berlin-samvel-pandian-s)  
+[LinkedIn Profile](https://www.linkedin.com/in/s-berlin-samvel-pandian007)  
 
 ---
 **Author:** Berlin Samvel Pandian S
 
 #DataScience #MachineLearning #KMeans #CustomerSegmentation #Python #DataAnalysis
-
